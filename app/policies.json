@@ -1,0 +1,587 @@
+{
+  "retrievedAt": "2026-08-15",
+  "mainArticleDate": "2025-06-04",
+  "sourceUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com",
+  "documents": [
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "教育部 | 《教师生成式人工智能应用指引（第一版）》 2025-11-28",
+      "date": "2025-11-28",
+      "links": [
+        "https://mp.weixin.qq.com/s/cvQOYRSXn2DnRVYGwebDiA"
+      ],
+      "new": true,
+      "preferredUrl": "https://mp.weixin.qq.com/s/cvQOYRSXn2DnRVYGwebDiA"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国务院 | 《关于深入实施“人工智能+”行动的意见》 2025-08-26",
+      "date": "2025-08-26",
+      "links": [
+        "/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176"
+      ],
+      "new": true,
+      "preferredUrl": "/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "教育部等 | 《关于加快推进教育数字化的意见》 2025-04-15",
+      "date": "2025-04-15",
+      "links": [
+        "/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224"
+      ],
+      "new": false,
+      "preferredUrl": "/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家市场监督管理总局等 | 《网络安全技术人工智能生成合成内容标识方法》（GB 45438-2025） 2025-02-28",
+      "date": "2025-02-28",
+      "links": [
+        "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F32EA2A561F1886CD8D606513512D547"
+      ],
+      "new": false,
+      "preferredUrl": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F32EA2A561F1886CD8D606513512D547"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家互联网信息办公室等 |《人工智能生成合成内容标识办法》 2025-03-07",
+      "date": "2025-03-07",
+      "links": [
+        "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家互联网信息办公室等 |《生成式人工智能服务管理暂行办法》 2023-07-10",
+      "date": "2023-07-10",
+      "links": [
+        "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家自然科学基金委员会 |《科研诚信规范手册》 2023-12-11",
+      "date": "2023-12-11",
+      "links": [
+        "https://www.nsfc.gov.cn/Portals/0/fj/fj20231221_01.pdf"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.nsfc.gov.cn/Portals/0/fj/fj20231221_01.pdf"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "date": "2023-12-21",
+      "links": [
+        "https://www.most.gov.cn/kjbgz/202312/t20231221_189240.html"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.most.gov.cn/kjbgz/202312/t20231221_189240.html"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "科学技术部 | 《新一代人工智能伦理规范》 2021-09-25",
+      "date": "2021-09-25",
+      "links": [
+        "https://www.most.gov.cn/kjbgz/202109/t20210926_177063.html"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.most.gov.cn/kjbgz/202109/t20210926_177063.html"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家标准化管理委员会等 |《国家新一代人工智能标准体系建设指南》 2020-07-27",
+      "date": "2020-07-27",
+      "links": [
+        "https://www.gov.cn/zhengce/zhengceku/2020-08/09/content_5533454.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.gov.cn/zhengce/zhengceku/2020-08/09/content_5533454.htm"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "国家新一代人工智能治理专业委员会 |《新一代人工智能治理原则——发展负责任的人工智能》 2019-06-17",
+      "date": "2019-06-17",
+      "links": [
+        "https://www.most.gov.cn/kjbgz/201906/t20190617_147107.html"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.most.gov.cn/kjbgz/201906/t20190617_147107.html"
+    },
+    {
+      "section": "政府",
+      "subsection": "政府",
+      "text": "中华人民共和国教育部 | 《高等学校人工智能创新行动计划》 2018-04-02",
+      "date": "2018-04-02",
+      "links": [
+        "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5443346.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5443346.htm"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "date": "2019-05-16",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000368303"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "date": "",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000376709"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000376709"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《人工智能伦理问题建议书》 2021",
+      "date": "",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000380455"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000380455"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "date": "2023-09-07",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "date": "",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://es.ichei.org/Uploads/Download/2024-01-05/659775cab981e.pdf"
+      ],
+      "new": false,
+      "preferredUrl": "https://es.ichei.org/Uploads/Download/2024-01-05/659775cab981e.pdf"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《学生人工智能能力框架》 2024",
+      "date": "",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000391105"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000391105"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "date": "",
+      "links": [
+        "https://unesdoc.unesco.org/ark:/48223/pf0000368303",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
+      ],
+      "new": false,
+      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "国际图联（IFLA）| 《国际图联关于图书馆与人工智能的声明》 2020-10",
+      "date": "",
+      "links": [
+        "https://repository.ifla.org/handle/20.500.14598/1646"
+      ],
+      "new": false,
+      "preferredUrl": "https://repository.ifla.org/handle/20.500.14598/1646"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "国际图联（IFLA）| 《国际图联关于版权与人工智能的立场声明》 2025-04-06",
+      "date": "2025-04-06",
+      "links": [
+        "https://repository.ifla.org/handle/20.500.14598/1646",
+        "https://repository.ifla.org/handle/20.500.14598/3927"
+      ],
+      "new": false,
+      "preferredUrl": "https://repository.ifla.org/handle/20.500.14598/3927"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "国际图联（IFLA）| 《国际图联“图书馆与人工智能”的切入点》 2025-06-10",
+      "date": "2025-06-10",
+      "links": [
+        "https://repository.ifla.org/handle/20.500.14598/1646",
+        "/static/site/view/ai/com?chId=1930168046433902592&artId=1935869342629531648",
+        "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
+      ],
+      "new": true,
+      "preferredUrl": "https://www.ifla.org/entry-point-for-libraries-and-ai/"
+    },
+    {
+      "section": "行业组织",
+      "subsection": "行业组织",
+      "text": "美国研究图书馆协会（ARL） | 《图书馆人工智能指导原则》 2024-04",
+      "date": "",
+      "links": [
+        "https://repository.ifla.org/handle/20.500.14598/1646",
+        "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/"
+    },
+    {
+      "section": "高校",
+      "subsection": "高校",
+      "text": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "date": "2025-11-26",
+      "links": [
+        "/static/site/view/ai/com?chId=1930168046433902592&artId=1995320297980481536",
+        "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
+      ],
+      "new": true,
+      "preferredUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995320297980481536"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "上海交通大学 | 《规范学生使用人工智能工具的教师指南》 2024-06-10",
+      "date": "2024-06-10",
+      "links": [
+        "https://ctld.sjtu.edu.cn/storage/file/2024/06/41f76c41d972b32fa344023b5663b275.pdf"
+      ],
+      "new": false,
+      "preferredUrl": "https://ctld.sjtu.edu.cn/storage/file/2024/06/41f76c41d972b32fa344023b5663b275.pdf"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "上海交通大学 | 《关于在教育教学中使用AI的规范》（试行版） 2025-03-04",
+      "date": "2025-03-04",
+      "links": [
+        "https://www.sjtu.edu.cn/tg/20250304/207682.html"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.sjtu.edu.cn/tg/20250304/207682.html"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "上海科技大学 | 《生成式人工智能使用指南》（2025年7月更新版） 2024-03-27",
+      "date": "2024-03-27",
+      "links": [
+        "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093385/page.htm"
+      ],
+      "new": true,
+      "preferredUrl": "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093385/page.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "上海科技大学 | 《生成式人工智能内容引用和声明参考指南》（2025年7月更新版） 2024-03-28",
+      "date": "2024-03-28",
+      "links": [
+        "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093386/page.htm"
+      ],
+      "new": true,
+      "preferredUrl": "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093386/page.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "date": "2024-06-29",
+      "links": [
+        "https://comm.ecnu.edu.cn/4b/93/c41932a609171/page.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://comm.ecnu.edu.cn/4b/93/c41932a609171/page.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "深圳大学 | 《关于在教学科研活动中规范使用人工智能技术的指导意见》 2025-03-13",
+      "date": "2025-03-13",
+      "links": [
+        "https://gra.szu.edu.cn/info/1012/3851.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://gra.szu.edu.cn/info/1012/3851.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "南京大学 | 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》 2025-03-27",
+      "date": "2025-03-27",
+      "links": [
+        "https://jw.nju.edu.cn/_upload/article/files/ab/85/1f49e9e9434dbf23018539b4c338/a550b349-9828-4a05-a5ec-d088b442bee1.pdf"
+      ],
+      "new": false,
+      "preferredUrl": "https://jw.nju.edu.cn/_upload/article/files/ab/85/1f49e9e9434dbf23018539b4c338/a550b349-9828-4a05-a5ec-d088b442bee1.pdf"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "西南交通大学 | 《本科毕业设计（论文） 规范使用人工智能工具的规定（试行）》 2025-03-12",
+      "date": "2025-03-12",
+      "links": [
+        "http://jwc.swjtu.edu.cn/vatuu/WebAction?setAction=newsDetail&viewType=web&newsId=D1F9B99CBAD780AD"
+      ],
+      "new": false,
+      "preferredUrl": "http://jwc.swjtu.edu.cn/vatuu/WebAction?setAction=newsDetail&viewType=web&newsId=D1F9B99CBAD780AD"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "中国人民大学 | 《规范AI在本科毕业论文（设计）中使用的通知》 2025-03-14",
+      "date": "2025-03-14",
+      "links": [
+        "https://mp.weixin.qq.com/s/RZ4LEv9AVTgIurqd0ODgdw"
+      ],
+      "new": false,
+      "preferredUrl": "https://mp.weixin.qq.com/s/RZ4LEv9AVTgIurqd0ODgdw"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "中国地质大学（武汉）| 《研究生学位论文 AI 使用规范（试行）》 2025-03-26",
+      "date": "2025-03-26",
+      "links": [
+        "https://graduate.cug.edu.cn/info/1042/11735.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://graduate.cug.edu.cn/info/1042/11735.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AI工具使用规定",
+      "text": "北京工商大学 | 《关于本科毕业论文（设计）规范使用人工智能工具的通知》 2025-04-23",
+      "date": "2025-04-23",
+      "links": [
+        "https://jwc.btbu.edu.cn/jwkw/bylw/8f1919d29e8f4608a822f705ba50fc45.htm",
+        "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
+      ],
+      "new": true,
+      "preferredUrl": "https://jwc.btbu.edu.cn/jwkw/bylw/8f1919d29e8f4608a822f705ba50fc45.htm"
+    },
+    {
+      "section": "高校",
+      "subsection": "AIGC检测要求",
+      "text": "天津科技大学 | 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》 2024-04-09",
+      "date": "2024-04-09",
+      "links": [
+        "https://jw.tust.edu.cn/ggtz/65b256ce743a41fa82c3533e16009807.html"
+      ],
+      "new": false,
+      "preferredUrl": "https://jw.tust.edu.cn/ggtz/65b256ce743a41fa82c3533e16009807.html"
+    },
+    {
+      "section": "高校",
+      "subsection": "AIGC检测要求",
+      "text": "湖北大学 | 《关于开展我校2024届普通本科毕业学生毕业论文（设计）检测工作的通知》 2024-04-10",
+      "date": "2024-04-10",
+      "links": [
+        "https://jwc.hubu.edu.cn/info/1061/7877.htm"
+      ],
+      "new": false,
+      "preferredUrl": "https://jwc.hubu.edu.cn/info/1061/7877.htm"
+    },
+    {
+      "section": "科研院所",
+      "subsection": "科研院所",
+      "text": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "date": "2025-12-08",
+      "links": [
+        "/static/site/view/ai/com?chId=1930168046433902592&artId=1998209416947625984",
+        "https://mp.weixin.qq.com/s/cvQOYRSXn2DnRVYGwebDiA"
+      ],
+      "new": true,
+      "preferredUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1998209416947625984"
+    },
+    {
+      "section": "科研院所",
+      "subsection": "科研院所",
+      "text": "中国科学院科研道德委员会 | 《关于在科研活动中规范使用人工智能技术的诚信提醒》 2024-09-10",
+      "date": "2024-09-10",
+      "links": [
+        "https://www.cas.cn/cm/202409/t20240911_5031204.shtml"
+      ],
+      "new": false,
+      "preferredUrl": "https://www.cas.cn/cm/202409/t20240911_5031204.shtml"
+    },
+    {
+      "section": "科研院所",
+      "subsection": "科研院所",
+      "text": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "date": "2024-10-28",
+      "links": [
+        "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202410/W020241028527811757298.pdf",
+        "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202410/W020241028527811757298.pdf"
+      ],
+      "new": false,
+      "preferredUrl": "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202410/W020241028527811757298.pdf"
+    }
+  ],
+  "publisherPolicies": [
+    {
+      "publisher": "COPE（国际出版伦理委员会）关于AI工具的立场声明",
+      "url": "https://publicationethics.org/cope-position-statements/ai-author",
+      "clauses": [
+        "AI 工具无法满足作者身份的要求，因为它们无法对提交的作品负责。作为非法律实体，他们不能断言存在或不存在利益冲突，也不能管理版权和许可协议。",
+        "在撰写手稿、制作论文的图像或图形元素或收集和分析数据时使用 AI 工具的作者，在论文的材料和方法（或类似部分）中披露 AI 工具的使用方式和使用的工具时必须透明。",
+        "作者对其手稿的内容负全部责任，即使是由 AI 工具生成的部分，因此应对任何违反出版道德的行为负责。"
+      ]
+    },
+    {
+      "publisher": "ACS Publications（美国化学学会）",
+      "url": "https://researcher-resources.acs.org/publish/aipolicy",
+      "clauses": [
+        "文字: 应在致谢部分说明使用AI工具的时间和方式；如使用场景较复杂，需在研究方法部分或其他适宜章节说明完整细节。",
+        "图像: 应在致谢部分中说明使用AI工具的时间和方式，还应在图注中简要描述AI使用情况，以便读者了解图像生成方式。",
+        "图文摘要: 禁止使用。",
+        "封面: 限制使用。需要在封面说明中披露所使用AI工具的名称以及具体使用方式。作者有责任确保工具的使用条款允许商业用途，且生成内容不归工具网站所有。"
+      ]
+    },
+    {
+      "publisher": "APS（美国物理学会）",
+      "url": "https://journals.aps.org/authors/editorial-policies-ethics",
+      "clauses": [
+        "文字: 仅可用于语言润色、精简或以其他方式轻度编辑写作内容（如语法修正、表达优化），作者需对稿件内容负全部责任。AI写作工具不应被列为作者，但可以在致谢中列出。如使用了AI工具，应在投稿信和论文中披露。",
+        "图像： 《Physical Review》 不允许提交包含由生成式 AI 或 AI 辅助工具生成或修改的图像的稿件。可以使用AI工具辅助调整图像的亮度、对比度或色彩平衡，只要这些变化不会模糊或消除原始图像中的任何信息。不允许使用AI工具增强、模糊、移动、移除或向图像引入特定特征。必须在编辑要求时提供图像的原始版本。需在论文“方法（methods）”部分披露AI工具使用说明，包括：如何在图像创建或修改过程中使用AI 或 AI 辅助工具。所使用的模型或工具的名称、版本和扩展号以及制造商。"
+      ]
+    },
+    {
+      "publisher": "Cambridge University Press（剑桥大学出版社）",
+      "url": "https://www.cambridge.org/core/services/authors/publishing-ethics/research-publishing-ethics-guidelines-for-journals/authorship-and-contributorship#ai-contributions-to-research-content",
+      "clauses": [
+        "文字： 使用 AI 不得违反剑桥的剽窃政策，学术作品必须为作者原创，未经适当引用不得呈现他人观点、数据、文字或材料；作者需对论文的准确性、完整性和原创性负责，包括 AI 生成内容的合规性。剑桥大学旗下个别期刊可能对 AI 使用有更具体的规定，需额外遵循。"
+      ]
+    },
+    {
+      "publisher": "Elsevier",
+      "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "clauses": [
+        "文字: 仅可用来作为润色工具，提高文章的可读性和语言表达，不能取代关键工作。需在稿件末尾、参考文献前披露AI使用声明，示例：“During the preparation of this work the author (s) used [工具名称] in order to [用途]. After using this tool/service, the author (s) reviewed and edited the content as needed and take (s) full responsibility for the content of the publication.”",
+        "图像: 禁止使用。不允许使用AI工具创建或修改图像，包括增强、模糊、移动、移除或引入图像或图表中的特定特征，仅允许调整亮度、对比度、色彩平衡，且不得掩盖原始信息。 例外情况： AI或AI辅助工具的使用是研究设计或研究方法的一部分，且需要在方法部分以可重复的方式描述该使用，并提供AI处理前的原始图像或合成素材供编辑审核。",
+        "图文摘要： 禁止使用。",
+        "封面: 限制使用。前提是事先获得期刊编辑和出版商的许可，确保版权清晰并正确署名。",
+        "您还可以在 这里 查看Elsevier对图书或专著作者使用AI工具的相关规定。"
+      ]
+    },
+    {
+      "publisher": "Emerald Publishing",
+      "url": "https://www.emeraldgrouppublishing.com/publish-with-us/ethics-integrity/research-publishing-ethics#authorship",
+      "clauses": [
+        "文字: 可用于进行语言润色；任何使用AI工具生成内容的行为均需在方法和致谢（或其他适宜部分）清晰透明地标注，但编辑和出版社保留拒稿的权利。",
+        "图像: 禁止使用。不允许提交和发布由人工智能工具或大型生成模型创建的图像。"
+      ]
+    },
+    {
+      "publisher": "Oxford Academic",
+      "url": "https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence",
+      "clauses": [
+        "Oxford Academic旗下期刊关于AIGC工具的规定各不相同，您可以在 这里 详细查看。",
+        "图书或专著的作者必须获得牛津大学出版社的书面许可，才能将人工智能生成的内容（包括数据的收集和分析或文本图形元素的制作）作为其提交内容的一部分，并有义务在牛津大学出版社认为合适的情况下，将人工智能生成的内容替换为人工生成的内容。"
+      ]
+    },
+    {
+      "publisher": "Plos One",
+      "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice#loc-artificial-intelligence-tools-and-technologies",
+      "clauses": [
+        "文字: 如使用了AI工具，需在文章的方法或致谢部分披露。包括：AI工具名称、使用方式、作者如何评估AI生成内容的有效性，并明确说明研究的哪些方面、文章内容、数据或支持文件受到 AI 工具使用的影响/生成。"
+      ]
+    },
+    {
+      "publisher": "Sage",
+      "url": "https://au.sagepub.com/en-gb/oce/artificial-intelligence-policy",
+      "clauses": [
+        "文字: 使用可以产生内容的人工智能工具，如生成参考文献、文本等内容，必须在作者或审稿人使用时披露。可用于语法润色（ 无需披露 ），但作者有责任确保内容的准确性和学术性。\"",
+        "图像: 若有使用AI工具，需披露。"
+      ]
+    },
+    {
+      "publisher": "Science",
+      "url": "https://www.science.org/content/blog-post/change-policy-use-generative-ai-and-large-language-models#:~:text=AI-generated%20images%20and%20other%20multimedia%20are%20not%20permitted,in%20manuscripts%20specifically%20about%20AI%20and%2For%20machine%20learning",
+      "clauses": [
+        "文字: 作者需对作品的准确性负责，如有使用AI工具，应在投稿信和稿件的致谢部分中注明，并在方法部分提供详细信息。",
+        "图像: 禁止使用。例外情况：仅允许在专门讨论 AI 和 / 或机器学习的稿件中使用 AI 生成的图像或视频，且需逐案评估，并在投稿时说明。"
+      ]
+    },
+    {
+      "publisher": "IEEE",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/#ai-generated-text",
+      "clauses": [
+        "文字: 使用AI生成的内容应在文章的致谢部分披露，包括但不限于文本、图表、图像和代码。可用于语法润色， 不要求但建议披露此类使用 。",
+        "图像： 如有使用，须在致谢部分披露使用情况，说明AI工具参与程度。"
+      ]
+    },
+    {
+      "publisher": "SIAM",
+      "url": "https://epubs.siam.org/artificial-intelligence",
+      "clauses": [
+        "文字: 可以使用人工智能工具编辑或润色作者的书面文本，需在作品的致谢部分进行简单的致谢。",
+        "图像： 如有使用，须在致谢部分完整披露生成或修改的具体内容，并尽可能提供可供读者复现结果所需的代码或数据。"
+      ]
+    },
+    {
+      "publisher": "Springer Nature",
+      "url": "https://www.springer.com/gp/editorial-policies/artificial-intelligence--ai-/25428500",
+      "clauses": [
+        "文字: AI可以用来作为润色工具 （无需披露） 。若在稿件中使用 LLM 或其他 AI 工具，需在 “方法” 部分（或其他适宜位置）适当说明。",
+        "图像: 禁止使用。例外是使用AI工具即是研究的一部分，需另行讨论。"
+      ]
+    },
+    {
+      "publisher": "Taylor & Francis",
+      "url": "https://taylorandfrancis.com/our-policies/ai-policy/",
+      "clauses": [
+        "文字: 在符合高标准的数据安全、保密性和版权保护前提下，可使用AI工具进行语言改进、在线搜索、文献分类、编码辅助，作者需对所提交的内容负责，并在方法或致谢部分声明。需注意部分期刊不允许使用AI工具进行“语言改进”以外的用途，作者需在论文提交前需咨询期刊编辑。",
+        "图像: 禁止使用。不允许使用AI工具来创建和处理图像和图表，或用于原始研究数据。此处“图像和图表”包括图片、图表、数据表格、医学影像、图像片段、计算机代码和公式。“处理”包括在图像或图表中增加、隐藏、移动、删除或引入特定特征。"
+      ]
+    },
+    {
+      "publisher": "Wiley",
+      "url": "https://authorservices.wiley.com/ethics-guidelines/index.html#5",
+      "clauses": [
+        "文字: AI可以用来作为润色工具。如果作者使用人工智能技术开发了手稿的任何部分，则必须在方法或致谢部分详细披露。",
+        "图像： 禁止使用。禁止不当修改图像（如选择性增强或删除部分），允许合理编辑（如亮度调整需全局一致），需在图例中声明非线性调整。"
+      ]
+    }
+  ]
+}
