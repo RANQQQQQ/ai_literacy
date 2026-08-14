@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { parseRuleIds } from "./chat-logic.mjs";
 import rulesData from "./rules.json";
 import policiesData from "./policies.json";
 
@@ -225,8 +226,7 @@ export default function Home() {
         throw new Error(data.error || "问答服务暂时不可用。");
       }
 
-      const ruleIds = (response.headers.get("X-Rule-Ids") || "")
-        .split(",").map((value) => Number(value)).filter(Number.isFinite);
+      const ruleIds = parseRuleIds(response.headers.get("X-Rule-Ids"));
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
       let buffer = "";
