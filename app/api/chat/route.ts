@@ -1,5 +1,6 @@
 import { env } from "cloudflare:workers";
 import rulesData from "../../rules.json";
+import { isAssistantHelpQuestion } from "../../chat-logic.mjs";
 
 type PolicyRule = {
   id: number;
@@ -74,8 +75,19 @@ function retrieveRules(query: string) {
     .map((item) => item.rule);
 }
 
-function buildSystemPrompt(rules: PolicyRule[]) {
+function buildSystemPrompt(rules: PolicyRule[], question: string) {
   if (!rules.length) {
+    if (isAssistantHelpQuestion(question)) {
+      return `你是“AI 规范顾问”，由 DeepSeek 的 deepseek-chat 模型提供语言能力，并由本网站的已核验政策规则库约束政策回答。
+
+用户正在询问你的身份、能力或使用方法。请自然、简洁地说明：
+1. 你可以根据规则库检索并解释高校学习、论文、科研和投稿场景中的 AI 使用要求；
+2. 政策判断只来自本网站已核验的规则，不能用训练知识补充或杜撰；
+3. 用户应描述具体场景、课程或成果类型，以便检索适用规则；
+4. 对与身份和使用方法无关的常识问题，不扩展作答。
+
+不要声称自己拥有规则库之外的政策知识，不要编造引用。`;
+    }
     return "你是高校图书馆AI使用规范咨询助手。规则库没有检索到与问题匹配的条目。请只回复：规则库中未收录该场景的明确规定，建议咨询任课教师或学院。不要添加其他知识。";
   }
 
@@ -125,7 +137,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         model,
         messages: [
-          { role: "system", content: buildSystemPrompt(matchedRules) },
+          { role: "system", content: buildSystemPrompt(matchedRules, question) },
           ...history,
           { role: "user", content: question },
         ],
@@ -148,6 +160,8 @@ export async function POST(request: Request) {
         "Content-Type": "text/event-stream; charset=utf-8",
         "Cache-Control": "no-cache, no-transform",
         "X-Rule-Ids": matchedRules.map((rule) => rule.id).join(","),
+        "X-AI-Provider": "DeepSeek",
+        "X-AI-Model": model,
       },
     });
   } catch {
