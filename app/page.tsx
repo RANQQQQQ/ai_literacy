@@ -55,6 +55,7 @@ type ChatMessage = {
 const RULES = rulesData as PolicyRule[];
 const POLICY_CATALOGUE = policiesData as PolicyCatalogue;
 const SOURCE_URL = "https://lib.cnu.edu.cn/static/site/view/ai/com";
+const CHAT_API_URL = process.env.NEXT_PUBLIC_CHAT_API_URL || "/api/chat";
 const RULE_TOTAL = RULES.length;
 const DOCUMENT_TOTAL = POLICY_CATALOGUE.documents.length;
 const PUBLISHER_TOTAL = POLICY_CATALOGUE.publisherPolicies.length;
@@ -216,7 +217,7 @@ export default function Home() {
     setMessages((current) => [...current, userMessage, assistantMessage]);
 
     try {
-      const response = await fetch("/api/chat", {
+      const response = await fetch(CHAT_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, history }),
