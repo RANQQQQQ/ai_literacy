@@ -27,4 +27,18 @@ test("keeps DeepSeek generation and policy grounding in the server route", async
   assert.match(route, /X-AI-Provider/);
   assert.match(route, /规则库没有检索到与问题匹配的条目/);
   assert.match(route, /不能用训练知识补充或杜撰/);
+  assert.match(route, /Access-Control-Allow-Origin/);
+  assert.match(route, /https:\/\/ranqqqqq\.github\.io/);
+});
+
+test("keeps the GitHub Pages frontend connected to the protected backend", async () => {
+  const [page, config, workflow] = await Promise.all([
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../next.config.ts", import.meta.url), "utf8"),
+    readFile(new URL("../.github/workflows/pages.yml", import.meta.url), "utf8"),
+  ]);
+  assert.match(page, /NEXT_PUBLIC_CHAT_API_URL/);
+  assert.match(config, /output:\s*"export"/);
+  assert.match(config, /basePath:\s*"\/ai_literacy"/);
+  assert.match(workflow, /actions\/deploy-pages@v4/);
 });
