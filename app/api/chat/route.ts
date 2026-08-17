@@ -21,6 +21,23 @@ type ChatTurn = { role: "user" | "assistant"; content: string };
 
 const RULES = rulesData as PolicyRule[];
 const requestWindows = new Map<string, { count: number; expiresAt: number }>();
+const GITHUB_PAGES_ORIGIN = "https://ranqqqqq.github.io";
+
+function corsHeaders(request: Request) {
+  const origin = request.headers.get("Origin");
+  if (origin !== GITHUB_PAGES_ORIGIN) return {};
+  return {
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Expose-Headers": "X-Rule-Ids, X-AI-Provider, X-AI-Model",
+    "Vary": "Origin",
+  };
+}
+
+function jsonResponse(request: Request, error: string, status: number) {
+  return Response.json({ error }, { status, headers: corsHeaders(request) });
+}
 
 function runtimeValue(key: string) {
   const workerEnv = env as unknown as Record<string, string | undefined>;
@@ -100,24 +117,24 @@ function buildSystemPrompt(rules: PolicyRule[], question: string) {
 
 export async function POST(request: Request) {
   if (isRateLimited(request)) {
-    return Response.json({ error: "请求过于频繁，请稍后再试。" }, { status: 429 });
+    return jsonResponse(request, "请求过于频繁，请稍后再试。", 429);
   }
 
   const apiKey = runtimeValue("DEEPSEEK_API_KEY");
   if (!apiKey) {
-    return Response.json({ error: "DeepSeek 服务端密钥尚未配置。" }, { status: 503 });
+    return jsonResponse(request, "DeepSeek 服务端密钥尚未配置。", 503);
   }
 
   let payload: { question?: string; history?: ChatTurn[] };
   try {
     payload = await request.json() as { question?: string; history?: ChatTurn[] };
   } catch {
-    return Response.json({ error: "请求格式无效。" }, { status: 400 });
+    return jsonResponse(request, "请求格式无效。", 400);
   }
 
   const question = payload.question?.trim() ?? "";
   if (!question || question.length > 600) {
-    return Response.json({ error: "问题不能为空，且不能超过 600 个字符。" }, { status: 400 });
+    return jsonResponse(request, "问题不能为空，且不能超过 600 个字符。", 400);
   }
 
   const history = Array.isArray(payload.history)
@@ -151,12 +168,13 @@ export async function POST(request: Request) {
       const message = upstream.status === 401
         ? "DeepSeek 密钥无效或已失效。"
         : `DeepSeek 服务暂时不可用（${upstream.status}）。`;
-      return Response.json({ error: message }, { status: 502 });
+      return jsonResponse(request, message, 502);
     }
 
     return new Response(upstream.body, {
       status: 200,
       headers: {
+        ...corsHeaders(request),
         "Content-Type": "text/event-stream; charset=utf-8",
         "Cache-Control": "no-cache, no-transform",
         "X-Rule-Ids": matchedRules.map((rule) => rule.id).join(","),
@@ -165,6 +183,16 @@ export async function POST(request: Request) {
       },
     });
   } catch {
-    return Response.json({ error: "无法连接 DeepSeek，请稍后重试。" }, { status: 502 });
+    return jsonResponse(request, "无法连接 DeepSeek，请稍后重试。", 502);
   }
+}
+
+export async function OPTIONS(request: Request) {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      ...corsHeaders(request),
+      "Access-Control-Max-Age": "86400",
+    },
+  });
 }
