@@ -42,3 +42,17 @@ test("keeps the GitHub Pages frontend connected to the protected backend", async
   assert.match(config, /basePath:\s*"\/ai_literacy"/);
   assert.match(workflow, /actions\/deploy-pages@v4/);
 });
+
+test("renders assistant Markdown instead of exposing Markdown as a preformatted string", async () => {
+  const [page, styles, route] = await Promise.all([
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
+    readFile(new URL("../app/api/chat/route.ts", import.meta.url), "utf8"),
+  ]);
+  assert.match(page, /from "react-markdown"/);
+  assert.match(page, /remarkPlugins=\{\[remarkGfm\]\}/);
+  assert.doesNotMatch(page, /<pre>\{message\.content\}<\/pre>/);
+  assert.match(styles, /\.markdownBody h3/);
+  assert.match(styles, /\.markdownBody table/);
+  assert.match(route, /分段标题用“### 标题”/);
+});
