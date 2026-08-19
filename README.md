@@ -2,6 +2,12 @@
 
 面向大学生的 AI 素养教育原型。参考 HTML 只用于功能和交互逻辑；数据于 2026-08-15 从[首都师范大学图书馆 AI 专题政策页面](https://lib.cnu.edu.cn/static/site/view/ai/com)及其链接的现行原文重新核验、独立拆解。
 
+## 在线使用
+
+访问：[AI 使用规范工具](https://ranqqqqq.github.io/ai_literacy/)
+
+普通访客无需填写或提供 DeepSeek API Key。智能问答通过项目维护者预先配置的服务端 Secret 调用 DeepSeek；密钥不会写入网页代码、发送到访客浏览器或公开在 GitHub 仓库中。
+
 ## 功能
 
 - 浏览当前页面的 40 项政策入口，以及独立页面列出的 15 个出版机构规则
@@ -11,7 +17,9 @@
 - 通过服务端 DeepSeek 接口回答问题，流式输出并展示本次检索命中的规则原文
 - 服务端密钥隔离、输入长度限制和基础请求频率限制
 
-## 本地运行
+## 自行部署与本地开发
+
+以下内容只面向需要在自己电脑或托管平台上重新部署项目的开发者；在线访客可以忽略本节。
 
 需要 Node.js `>=22.13.0`。
 
@@ -21,7 +29,7 @@ cp .env.example .dev.vars
 npm run dev
 ```
 
-在 `.dev.vars` 中填写 DeepSeek 密钥。该文件已被 Git 忽略，禁止把真实密钥写入前端代码或提交到仓库。
+自行部署时，在 `.dev.vars` 中填写部署者自己的 DeepSeek 密钥。该文件已被 Git 忽略，禁止把真实密钥写入前端代码或提交到仓库。
 
 ```dotenv
 DEEPSEEK_API_KEY=your_server_side_key
