@@ -305,7 +305,7 @@ export default function Home() {
       </header>
 
       <section className="hero compactHero">
-        <div><span className="eyebrow">当前目录 · 独立拆解 · 来源可核验</span><h1>先找到依据，再决定怎样使用 AI</h1><p>按现行网页重新核验政策目录，只把能够读取到当前原文的内容拆成规则；参考原型仅用于功能与交互逻辑。</p></div>
+        <div><span className="eyebrow">当前目录 · 独立拆解 · 来源可核验</span><h1>先找到依据，再决定怎样使用 AI</h1></div>
         <div className="heroStats"><div><strong>{RULE_TOTAL}</strong><span>已核验规则</span></div><div><strong>{DOCUMENT_TOTAL}</strong><span>目录政策</span></div><div><strong>{PUBLISHER_TOTAL}</strong><span>出版机构</span></div></div>
       </section>
 
