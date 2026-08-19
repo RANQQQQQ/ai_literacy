@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { parseRuleIds } from "./chat-logic.mjs";
 import rulesData from "./rules.json";
 import policiesData from "./policies.json";
@@ -111,6 +113,15 @@ function Mark({ text, query }: { text: string; query: string }) {
   return <>{parts}</>;
 }
 
+function ChatMarkdown({ content }: { content: string }) {
+  return <div className="markdownBody"><Markdown
+    remarkPlugins={[remarkGfm]}
+    components={{
+      a: ({ children, href }) => <a href={href} target="_blank" rel="noreferrer">{children}</a>,
+    }}
+  >{content}</Markdown></div>;
+}
+
 export default function Home() {
   const [tab, setTab] = useState<"rules" | "catalogue" | "declaration" | "chat">("rules");
   const [query, setQuery] = useState("");
@@ -118,7 +129,7 @@ export default function Home() {
   const [level, setLevel] = useState("");
   const [topic, setTopic] = useState("");
   const [expandedRule, setExpandedRule] = useState<number | null>(null);
-  const [visibleCount, setVisibleCount] = useState(60);
+  const [pagination, setPagination] = useState({ key: "", count: 60 });
   const [declType, setDeclType] = useState<"course" | "thesis" | "research">("course");
   const [form, setForm] = useState({ title: "", tool: "", time: "", stage: "", author: "", purpose: "" });
   const [generated, setGenerated] = useState("");
@@ -166,9 +177,11 @@ export default function Home() {
       .map((item) => item.rule);
   }, [query, scene, level, topic]);
 
+  const resultKey = `${query}\u0000${scene}\u0000${level}\u0000${topic}`;
+  const visibleCount = pagination.key === resultKey ? pagination.count : 60;
+
   const ruleMap = useMemo(() => new Map(RULES.map((rule) => [rule.id, rule])), []);
 
-  useEffect(() => setVisibleCount(60), [query, scene, level, topic]);
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }, [messages, isAsking]);
@@ -320,7 +333,7 @@ export default function Home() {
               </button>
               {expandedRule === rule.id && <div className="cardBody ruleBody"><blockquote><Mark text={rule.quote} query={query} /></blockquote><div className="ruleSource"><span>来源</span><a href={rule.sourceUrl} target="_blank" rel="noreferrer"><Mark text={rule.source} query={query} /> ↗</a>{rule.originalUrl && <a href={rule.originalUrl} target="_blank" rel="noreferrer">机构原始页面 ↗</a>}<small>{rule.publishedAt && `发布/更新：${rule.publishedAt} · `}核验：{rule.verifiedAt}</small></div><button className="textButton" onClick={() => { setQuery(rule.action); void submitQuestion(`请解读规则「${rule.action}」（场景：${rule.scene}）。请基于规则原文说明结论、适用边界、不同来源的差异和需要核验的事项。`); }}>用 AI 解读这条规则</button></div>}
             </article>)}
-            {results.length > visibleCount && <button className="loadMore" onClick={() => setVisibleCount((count) => count + 60)}>继续显示（剩余 {results.length - visibleCount} 条）</button>}
+            {results.length > visibleCount && <button className="loadMore" onClick={() => setPagination({ key: resultKey, count: visibleCount + 60 })}>继续显示（剩余 {results.length - visibleCount} 条）</button>}
           </div>
         </div>
       </section>}
@@ -348,7 +361,7 @@ export default function Home() {
           {messages.map((message, index) => {
             const citedRules = (message.ruleIds || []).map((id) => ruleMap.get(id)).filter(Boolean) as PolicyRule[];
             const waiting = message.role === "assistant" && !message.content && isAsking && index === messages.length - 1;
-            return <div className={`chatMessage ${message.role} ${message.error ? "messageError" : ""}`} key={message.id}><div className="messageLabel">{message.role === "user" ? "你" : "DeepSeek"}</div><div className="messageBubble">{waiting ? <span className="typing">正在检索规则并生成回答<span>…</span></span> : <pre>{message.content}</pre>}{citedRules.length > 0 && <div className="citations"><strong>引用规则（{citedRules.length}条）</strong>{citedRules.map((rule) => <details key={rule.id}><summary><span className={`verdict verdict-${rule.level}`}>{rule.verdict}</span>{rule.action}<small>{rule.source}</small></summary><blockquote>{rule.quote}</blockquote></details>)}<p>以上回答仅基于规则库中的政策条款，具体以任课教师和所在院校最新规定为准。</p></div>}</div></div>;
+            return <div className={`chatMessage ${message.role} ${message.error ? "messageError" : ""}`} key={message.id}><div className="messageLabel">{message.role === "user" ? "你" : "DeepSeek"}</div><div className="messageBubble">{waiting ? <span className="typing">正在检索规则并生成回答<span>…</span></span> : message.role === "assistant" && !message.error ? <ChatMarkdown content={message.content} /> : <span>{message.content}</span>}{citedRules.length > 0 && <div className="citations"><strong>引用规则（{citedRules.length}条）</strong>{citedRules.map((rule) => <details key={rule.id}><summary><span className={`verdict verdict-${rule.level}`}>{rule.verdict}</span>{rule.action}<small>{rule.source}</small></summary><blockquote>{rule.quote}</blockquote></details>)}<p>以上回答仅基于规则库中的政策条款，具体以任课教师和所在院校最新规定为准。</p></div>}</div></div>;
           })}
           <div ref={chatEndRef} />
         </div>

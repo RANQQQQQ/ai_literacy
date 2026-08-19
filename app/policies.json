@@ -1,5 +1,5 @@
 {
-  "retrievedAt": "2026-08-15",
+  "retrievedAt": "2026-08-19",
   "mainArticleDate": "2025-06-04",
   "sourceUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com",
   "documents": [
@@ -23,7 +23,7 @@
         "/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176"
       ],
       "new": true,
-      "preferredUrl": "/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176"
+      "preferredUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176"
     },
     {
       "section": "政府",
@@ -34,7 +34,7 @@
         "/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224"
       ],
       "new": false,
-      "preferredUrl": "/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224"
+      "preferredUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224"
     },
     {
       "section": "政府",
@@ -144,7 +144,7 @@
         "https://unesdoc.unesco.org/ark:/48223/pf0000368303"
       ],
       "new": false,
-      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000368303"
+      "preferredUrl": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_a16e5c78-9a4f-4722-84be-35f5e8937be2?_=368303qaa.pdf&from=1&to=70"
     },
     {
       "section": "行业组织",
@@ -156,7 +156,7 @@
         "https://unesdoc.unesco.org/ark:/48223/pf0000376709"
       ],
       "new": false,
-      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000376709"
+      "preferredUrl": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_761bcdad-d1e3-40c9-819d-03c4ac725f26?_=376709eng.pdf"
     },
     {
       "section": "行业组织",
@@ -168,7 +168,7 @@
         "https://unesdoc.unesco.org/ark:/48223/pf0000380455"
       ],
       "new": false,
-      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000380455"
+      "preferredUrl": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_fa6f4b4a-9298-4a92-ba07-8108ac513153?_=380455eng.pdf"
     },
     {
       "section": "行业组织",
@@ -180,7 +180,7 @@
         "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
       ],
       "new": false,
-      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
+      "preferredUrl": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_eac0f406-0548-426d-b1f9-8158c22906bc?_=386693eng.pdf"
     },
     {
       "section": "行业组织",
@@ -216,7 +216,7 @@
         "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
       ],
       "new": false,
-      "preferredUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
+      "preferredUrl": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_17145f52-ae3b-405f-8434-1ed2a2a0a881?_=391104eng.pdf"
     },
     {
       "section": "行业组织",
@@ -252,7 +252,7 @@
         "https://www.gov.cn/zhengce/content/202508/content_7037861.htm"
       ],
       "new": true,
-      "preferredUrl": "https://www.ifla.org/entry-point-for-libraries-and-ai/"
+      "preferredUrl": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1935869342629531648"
     },
     {
       "section": "行业组织",
