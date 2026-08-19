@@ -1,6 +1,7 @@
+import argparse
 import json
 import re
-import sys
+from datetime import date
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -38,7 +39,9 @@ def extract_entries(html: str, default_section: str | None = None):
     soup = BeautifulSoup(html, "html.parser")
     entries = []
     seen = set()
-    for item in soup.find_all("li"):
+    sections = soup.select("#conai, #govai, #uniai, #artai")
+    items = [item for section in sections for item in section.find_all("li")] if sections else soup.find_all("li")
+    for item in items:
         if item.find("li"):
             continue
         text = clean(item.get_text(" ", strip=True))
@@ -88,9 +91,14 @@ def extract_publisher_policies(html: str):
     return policies
 
 
-main_response = json.loads(Path("/tmp/cnu-policy-nav-response.json").read_text())
-main_html = main_response["data"]["artInfo"]["contents"]
-publisher_html = Path("/tmp/cnu-publishers-page.html").read_text()
+parser = argparse.ArgumentParser(description="Audit the live CNU AI policy catalogue snapshot.")
+parser.add_argument("--main-html", type=Path, default=Path("/tmp/cnu-live-main.html"))
+parser.add_argument("--publisher-html", type=Path, default=Path("/tmp/cnu-live-publishers.html"))
+parser.add_argument("--retrieved-at", default=date.today().isoformat())
+args = parser.parse_args()
+
+main_html = args.main_html.read_text()
+publisher_html = args.publisher_html.read_text()
 current_entries = extract_entries(main_html)
 publisher_policies = extract_publisher_policies(publisher_html)
 
@@ -99,9 +107,11 @@ old_sources = sorted({rule["source"].split(" + ")[0].strip() for rule in rules})
 
 result = {
     "snapshot": {
-        "retrievedAt": "2026-08-15",
-        "mainArticleDate": main_response["data"]["artInfo"].get("beginTimeStr", ""),
-        "mainArticleId": main_response["data"]["artInfo"].get("id", ""),
+        "retrievedAt": args.retrieved_at,
+        "mainArticleDate": "2025-06-04",
+        "mainArticleId": "1930168339607363584",
+        "mainHtml": str(args.main_html),
+        "publisherHtml": str(args.publisher_html),
     },
     "currentEntries": current_entries,
     "publisherPolicies": publisher_policies,
