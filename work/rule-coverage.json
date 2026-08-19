@@ -1,0 +1,1309 @@
+{
+  "verifiedAt": "2026-08-19",
+  "catalogueEntryCount": 40,
+  "publisherCount": 15,
+  "publisherClauseCount": 34,
+  "currentCandidateCount": 153,
+  "legacyCandidateCount": 243,
+  "currentVerifiedCount": 153,
+  "newlyRecoveredLegacyCount": 2,
+  "verifiedRuleCount": 155,
+  "documents": [
+    {
+      "section": "政府",
+      "title": "教育部 | 《教师生成式人工智能应用指引（第一版）》 2025-11-28",
+      "url": "https://mp.weixin.qq.com/s/cvQOYRSXn2DnRVYGwebDiA",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 7721,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 4
+    },
+    {
+      "section": "政府",
+      "title": "国务院 | 《关于深入实施“人工智能+”行动的意见》 2025-08-26",
+      "url": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/fb1db1e705907daf474e81c6b0fd249a81af7e8b3e85d785b8a1f86b747b87e5.bin', 'https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995307850481586176']' returned non-zero exit status 35.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "政府",
+      "title": "教育部等 | 《关于加快推进教育数字化的意见》 2025-04-15",
+      "url": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/34d397b35c5a4a8aadaef532ad5a0d7f569da0b4437e29b86e4acaca61a81ae3.bin', 'https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995314745862836224']' returned non-zero exit status 35.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "政府",
+      "title": "国家市场监督管理总局等 | 《网络安全技术人工智能生成合成内容标识方法》（GB 45438-2025） 2025-02-28",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=F32EA2A561F1886CD8D606513512D547",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 745,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "政府",
+      "title": "国家互联网信息办公室等 |《人工智能生成合成内容标识办法》 2025-03-07",
+      "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 2874,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 2
+    },
+    {
+      "section": "政府",
+      "title": "国家互联网信息办公室等 |《生成式人工智能服务管理暂行办法》 2023-07-10",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202307/content_6891752.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 8333,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 1
+    },
+    {
+      "section": "政府",
+      "title": "国家自然科学基金委员会 |《科研诚信规范手册》 2023-12-11",
+      "url": "https://www.nsfc.gov.cn/Portals/0/fj/fj20231221_01.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 37826,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 5
+    },
+    {
+      "section": "政府",
+      "title": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "url": "https://www.most.gov.cn/kjbgz/202312/t20231221_189240.html",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 14879,
+      "attachments": [
+        {
+          "requestedUrl": "https://www.most.gov.cn/kjbgz/202312/W020231221582942330036.pdf",
+          "finalUrl": "https://www.most.gov.cn/kjbgz/202312/W020231221582942330036.pdf",
+          "format": "pdf",
+          "status": "readable",
+          "bytes": 294089
+        },
+        {
+          "requestedUrl": "https://www.most.gov.cn/kjbgz/202312/W020231221570544022411.pdf",
+          "finalUrl": "https://www.most.gov.cn/kjbgz/202312/W020231221570544022411.pdf",
+          "format": "pdf",
+          "status": "readable",
+          "bytes": 117128
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 9
+    },
+    {
+      "section": "政府",
+      "title": "科学技术部 | 《新一代人工智能伦理规范》 2021-09-25",
+      "url": "https://www.most.gov.cn/kjbgz/202109/t20210926_177063.html",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 3418,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 2
+    },
+    {
+      "section": "政府",
+      "title": "国家标准化管理委员会等 |《国家新一代人工智能标准体系建设指南》 2020-07-27",
+      "url": "https://www.gov.cn/zhengce/zhengceku/2020-08/09/content_5533454.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1636,
+      "attachments": [
+        {
+          "status": "error",
+          "error": "Unexpected EOF"
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "政府",
+      "title": "国家新一代人工智能治理专业委员会 |《新一代人工智能治理原则——发展负责任的人工智能》 2019-06-17",
+      "url": "https://www.most.gov.cn/kjbgz/201906/t20190617_147107.html",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1718,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "政府",
+      "title": "中华人民共和国教育部 | 《高等学校人工智能创新行动计划》 2018-04-02",
+      "url": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5443346.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 13508,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_a16e5c78-9a4f-4722-84be-35f5e8937be2?_=368303qaa.pdf&from=1&to=70",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/bb3099b78fcf52b5cdffa34bf544ea717f966629e9cd13971d2cf81e4d5474f0.bin', 'https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_a16e5c78-9a4f-4722-84be-35f5e8937be2?_=368303qaa.pdf&from=1&to=70']' returned non-zero exit status 22.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_761bcdad-d1e3-40c9-819d-03c4ac725f26?_=376709eng.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 223778,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《人工智能伦理问题建议书》 2021",
+      "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_fa6f4b4a-9298-4a92-ba07-8108ac513153?_=380455eng.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 98412,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 4
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_eac0f406-0548-426d-b1f9-8158c22906bc?_=386693eng.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 164719,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 2
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "url": "https://es.ichei.org/Uploads/Download/2024-01-05/659775cab981e.pdf",
+      "status": "empty",
+      "format": "pdf",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《学生人工智能能力框架》 2024",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000391105",
+      "status": "empty",
+      "format": "html",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_17145f52-ae3b-405f-8434-1ed2a2a0a881?_=391104eng.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 164592,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "国际图联（IFLA）| 《国际图联关于图书馆与人工智能的声明》 2020-10",
+      "url": "https://repository.ifla.org/handle/20.500.14598/1646",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 2398,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "国际图联（IFLA）| 《国际图联关于版权与人工智能的立场声明》 2025-04-06",
+      "url": "https://repository.ifla.org/handle/20.500.14598/3927",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1723,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "国际图联（IFLA）| 《国际图联“图书馆与人工智能”的切入点》 2025-06-10",
+      "url": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1935869342629531648",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/9d712133f0e2434b89331f3bd2c97047d2786bdab667adb85e1b540a20311b3b.bin', 'https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1935869342629531648']' returned non-zero exit status 35.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "行业组织",
+      "title": "美国研究图书馆协会（ARL） | 《图书馆人工智能指导原则》 2024-04",
+      "url": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 16619,
+      "attachments": [
+        {
+          "requestedUrl": "https://www.arl.org/wp-content/uploads/2024/04/Research-Libraries-Guiding-Principles-for-Artificial-Intelligence.pdf",
+          "finalUrl": "https://www.arl.org/wp-content/uploads/2024/04/Research-Libraries-Guiding-Principles-for-Artificial-Intelligence.pdf",
+          "format": "pdf",
+          "status": "readable",
+          "bytes": 192902
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 3
+    },
+    {
+      "section": "高校",
+      "title": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "url": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995320297980481536",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/1e92c022e8ed0724391cd8d5d97dbe9d7914d177f25c3021a43f183610e26ca3.bin', 'https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1995320297980481536']' returned non-zero exit status 35.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "上海交通大学 | 《规范学生使用人工智能工具的教师指南》 2024-06-10",
+      "url": "https://ctld.sjtu.edu.cn/storage/file/2024/06/41f76c41d972b32fa344023b5663b275.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 2673,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 14
+    },
+    {
+      "section": "高校",
+      "title": "上海交通大学 | 《关于在教育教学中使用AI的规范》（试行版） 2025-03-04",
+      "url": "https://www.sjtu.edu.cn/tg/20250304/207682.html",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 20346,
+      "attachments": [
+        {
+          "requestedUrl": "https://www.sjtu.edu.cn/resource/upload/202503/20250306_192141_469.pdf",
+          "finalUrl": "https://www.sjtu.edu.cn/resource/upload/202503/20250306_192141_469.pdf",
+          "format": "pdf",
+          "status": "readable",
+          "bytes": 849615
+        },
+        {
+          "requestedUrl": "https://www.sjtu.edu.cn/resource/upload/202503/20250306_192305_495.pdf",
+          "finalUrl": "https://www.sjtu.edu.cn/resource/upload/202503/20250306_192305_495.pdf",
+          "format": "pdf",
+          "status": "readable",
+          "bytes": 911883
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 9
+    },
+    {
+      "section": "高校",
+      "title": "上海科技大学 | 《生成式人工智能使用指南》（2025年7月更新版） 2024-03-27",
+      "url": "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093385/page.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 27,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "上海科技大学 | 《生成式人工智能内容引用和声明参考指南》（2025年7月更新版） 2024-03-28",
+      "url": "https://ai.shanghaitech.edu.cn/2024/0328/c14349a1093386/page.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 27,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "url": "https://comm.ecnu.edu.cn/4b/93/c41932a609171/page.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1195,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "深圳大学 | 《关于在教学科研活动中规范使用人工智能技术的指导意见》 2025-03-13",
+      "url": "https://gra.szu.edu.cn/info/1012/3851.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 3580,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 20
+    },
+    {
+      "section": "高校",
+      "title": "南京大学 | 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》 2025-03-27",
+      "url": "https://jw.nju.edu.cn/_upload/article/files/ab/85/1f49e9e9434dbf23018539b4c338/a550b349-9828-4a05-a5ec-d088b442bee1.pdf",
+      "status": "readable",
+      "format": "pdf",
+      "textCharacters": 3333,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 13
+    },
+    {
+      "section": "高校",
+      "title": "西南交通大学 | 《本科毕业设计（论文） 规范使用人工智能工具的规定（试行）》 2025-03-12",
+      "url": "http://jwc.swjtu.edu.cn/vatuu/WebAction?setAction=newsDetail&viewType=web&newsId=D1F9B99CBAD780AD",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 962,
+      "attachments": [
+        {
+          "status": "error",
+          "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/675f7afb26f787e051e56cb21c5dafc17aae7d5703790cdbbcf837495ba8194e.bin', 'http://jwc.swjtu.edu.cn/download/ueditor/jsp/upload/file/20250317/1742193384660023605.pdf']' returned non-zero exit status 22."
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "中国人民大学 | 《规范AI在本科毕业论文（设计）中使用的通知》 2025-03-14",
+      "url": "https://mp.weixin.qq.com/s/RZ4LEv9AVTgIurqd0ODgdw",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1744,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 8
+    },
+    {
+      "section": "高校",
+      "title": "中国地质大学（武汉）| 《研究生学位论文 AI 使用规范（试行）》 2025-03-26",
+      "url": "https://graduate.cug.edu.cn/info/1042/11735.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1880,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 1
+    },
+    {
+      "section": "高校",
+      "title": "北京工商大学 | 《关于本科毕业论文（设计）规范使用人工智能工具的通知》 2025-04-23",
+      "url": "https://jwc.btbu.edu.cn/jwkw/bylw/8f1919d29e8f4608a822f705ba50fc45.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 1909,
+      "attachments": [
+        {
+          "requestedUrl": "https://jwc.btbu.edu.cn/docs/2025-04/78e90a6ab29f4e06ad8e78ee9081af19.docx",
+          "finalUrl": "https://jwc.btbu.edu.cn/docs/2025-04/78e90a6ab29f4e06ad8e78ee9081af19.docx",
+          "format": "docx",
+          "status": "readable",
+          "bytes": 13693
+        }
+      ],
+      "error": null,
+      "verifiedRuleCount": 8
+    },
+    {
+      "section": "高校",
+      "title": "天津科技大学 | 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》 2024-04-09",
+      "url": "https://jw.tust.edu.cn/ggtz/65b256ce743a41fa82c3533e16009807.html",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/e49221275e0017f85557cf06bc083effac761956fff57e82cf9108f15376b8ee.bin', 'https://jw.tust.edu.cn/ggtz/65b256ce743a41fa82c3533e16009807.html']' returned non-zero exit status 22.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "高校",
+      "title": "湖北大学 | 《关于开展我校2024届普通本科毕业学生毕业论文（设计）检测工作的通知》 2024-04-10",
+      "url": "https://jwc.hubu.edu.cn/info/1061/7877.htm",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 2481,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 1
+    },
+    {
+      "section": "科研院所",
+      "title": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "url": "https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1998209416947625984",
+      "status": "error",
+      "format": "unknown",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": "Command '['curl', '-L', '--fail', '--silent', '--show-error', '--max-time', '60', '--output', '/tmp/cnu-policy-downloads/7b30a1fb62acd21936031a3b459da756b74914711ccfd00167fb4fe7f98f98a3.bin', 'https://lib.cnu.edu.cn/static/site/view/ai/com?chId=1930168046433902592&artId=1998209416947625984']' returned non-zero exit status 35.",
+      "verifiedRuleCount": 0
+    },
+    {
+      "section": "科研院所",
+      "title": "中国科学院科研道德委员会 | 《关于在科研活动中规范使用人工智能技术的诚信提醒》 2024-09-10",
+      "url": "https://www.cas.cn/cm/202409/t20240911_5031204.shtml",
+      "status": "readable",
+      "format": "html",
+      "textCharacters": 6383,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 16
+    },
+    {
+      "section": "科研院所",
+      "title": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "url": "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202410/W020241028527811757298.pdf",
+      "status": "empty",
+      "format": "pdf",
+      "textCharacters": 0,
+      "attachments": [],
+      "error": null,
+      "verifiedRuleCount": 0
+    }
+  ],
+  "unmatchedLegacy": [
+    {
+      "legacyId": 0,
+      "source": "AI and education guidance for policy-makers.pdf + Beijing Consensus 14",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 1,
+      "source": "AI and education guidance for policy-makers.pdf + Beijing Consensus 20",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 2,
+      "source": "AI and education guidance for policy-makers.pdf + Beijing Consensus 23",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 3,
+      "source": "AI and education guidance for policy-makers.pdf + Beijing Consensus 24",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 4,
+      "source": "AI and education guidance for policy-makers.pdf + Beijing Consensus 29",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 5,
+      "source": "AI and education guidance for policy-makers.pdf + 6.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 6,
+      "source": "AI and education guidance for policy-makers.pdf + 6.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 7,
+      "source": "AI and education guidance for policy-makers.pdf + 6.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 8,
+      "source": "AI and education guidance for policy-makers.pdf + 6.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 9,
+      "source": "AI and education guidance for policy-makers.pdf + 6.6",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能与教育：政策制定者指南》 2021",
+      "matched": false
+    },
+    {
+      "legacyId": 10,
+      "source": "AI competency framework for teachers.pdf + Table 2",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 11,
+      "source": "AI competency framework for teachers.pdf + Table 2",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 12,
+      "source": "AI competency framework for teachers.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 13,
+      "source": "AI competency framework for teachers.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 14,
+      "source": "AI competency framework for teachers.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 15,
+      "source": "AI competency framework for teachers.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 16,
+      "source": "AI competency framework for teachers.pdf + Table 4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 17,
+      "source": "AI competency framework for teachers.pdf + Table 4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 18,
+      "source": "AI competency framework for teachers.pdf + Box 1",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《教师人工智能能力框架》 2024",
+      "matched": false
+    },
+    {
+      "legacyId": 19,
+      "source": "Guidance for generative AI in education and research.pdf + 2.1",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 20,
+      "source": "Guidance for generative AI in education and research.pdf + 2.2",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 21,
+      "source": "Guidance for generative AI in education and research.pdf + 2.3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 22,
+      "source": "Guidance for generative AI in education and research.pdf + 2.3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 23,
+      "source": "Guidance for generative AI in education and research.pdf + 2.4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 24,
+      "source": "Guidance for generative AI in education and research.pdf + 2.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 25,
+      "source": "Guidance for generative AI in education and research.pdf + 2.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 26,
+      "source": "Guidance for generative AI in education and research.pdf + 2.6",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 27,
+      "source": "Guidance for generative AI in education and research.pdf + 2.7",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 28,
+      "source": "Guidance for generative AI in education and research.pdf + 2.7",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 29,
+      "source": "Guidance for generative AI in education and research.pdf + 2.7",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 31,
+      "source": "Guidance for generative AI in education and research.pdf + 3.3.4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 32,
+      "source": "Guidance for generative AI in education and research.pdf + 3.3.4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 33,
+      "source": "Guidance for generative AI in education and research.pdf + 3.3.4",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 34,
+      "source": "Guidance for generative AI in education and research.pdf + 4.2",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 35,
+      "source": "Guidance for generative AI in education and research.pdf + 4.5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 37,
+      "source": "Guidance for generative AI in education and research.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 38,
+      "source": "Guidance for generative AI in education and research.pdf + Table 3",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 39,
+      "source": "Guidance for generative AI in education and research.pdf + Table 5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 40,
+      "source": "Guidance for generative AI in education and research.pdf + Table 5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 41,
+      "source": "Guidance for generative AI in education and research.pdf + Table 5",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 42,
+      "source": "Guidance for generative AI in education and research.pdf + Table 6",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 43,
+      "source": "Guidance for generative AI in education and research.pdf + Table 6",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 44,
+      "source": "Guidance for generative AI in education and research.pdf + Table 7",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《生成式人工智能教育与研究应用指南》 2023-09-07",
+      "matched": false
+    },
+    {
+      "legacyId": 45,
+      "source": "Higher Education.pdf + 07",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 46,
+      "source": "Higher Education.pdf + 27",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 47,
+      "source": "Higher Education.pdf + 27",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 48,
+      "source": "Higher Education.pdf + 27",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 49,
+      "source": "Higher Education.pdf + 27",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 50,
+      "source": "Higher Education.pdf + 29",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 51,
+      "source": "Higher Education.pdf + 29",
+      "catalogueEntry": "联合国教科文组织（UNESCO）| 《人工智能时代的高等教育》 2023-12",
+      "matched": false
+    },
+    {
+      "legacyId": 52,
+      "source": "IFLA AI Entry Point to Libraries and AI.pdf + The library’s role",
+      "catalogueEntry": "国际图联（IFLA）| 《国际图联“图书馆与人工智能”的切入点》 2025-06-10",
+      "matched": false
+    },
+    {
+      "legacyId": 53,
+      "source": "IFLA AI Entry Point to Libraries and AI.pdf + Possible library related applications",
+      "catalogueEntry": "国际图联（IFLA）| 《国际图联“图书馆与人工智能”的切入点》 2025-06-10",
+      "matched": false
+    },
+    {
+      "legacyId": 61,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 3.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 62,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.1",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 63,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.1",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 64,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.1",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 65,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 66,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 67,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 68,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 69,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 70,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 71,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 72,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 73,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 74,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 75,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 76,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 77,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.4",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 78,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.4",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 79,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.4",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 80,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.4",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 81,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.5",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 82,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.6",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 83,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.6",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 84,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.1.6",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 85,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.1",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 86,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.1",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 87,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 88,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 89,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.4.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 90,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.4.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 91,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.4.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 92,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.4.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 93,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.2.4.3",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 94,
+      "source": "《学术出版中AIGC使用边界指南3.0》(中文版.pdf + 4.3.2",
+      "catalogueEntry": "中国科学技术信息研究所等 |《学术出版中AIGC使用边界指南 3.0（中文版）》 2025-12-08",
+      "matched": false
+    },
+    {
+      "legacyId": 112,
+      "source": "中国地质大学（武汉）《研究生学位论文 AI 使用规范（试行）》.docx + 通知第一段",
+      "catalogueEntry": "中国地质大学（武汉）| 《研究生学位论文 AI 使用规范（试行）》 2025-03-26",
+      "matched": false
+    },
+    {
+      "legacyId": 114,
+      "source": "传播学院人工智能学生使用指南.docx + 遵守AIGC开发者使用法规",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 115,
+      "source": "传播学院人工智能学生使用指南.docx + 符合学术道德规范",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 116,
+      "source": "传播学院人工智能学生使用指南.docx + 使用AIGC时应进行标注",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 117,
+      "source": "传播学院人工智能学生使用指南.docx + 使用AIGC时应进行标注",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 118,
+      "source": "传播学院人工智能学生使用指南.docx + 对AIGC生成的内容进行必要自查",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 119,
+      "source": "传播学院人工智能学生使用指南.docx + 尊重知识产权",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 120,
+      "source": "传播学院人工智能学生使用指南.docx + 保护隐私安全",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 121,
+      "source": "传播学院人工智能学生使用指南.docx + 保护隐私安全",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 122,
+      "source": "传播学院人工智能学生使用指南.docx + 抵制虚假信息",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 123,
+      "source": "传播学院人工智能学生使用指南.docx + 维护网络生态",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 124,
+      "source": "传播学院人工智能学生使用指南.docx + 维护网络生态",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 125,
+      "source": "传播学院人工智能学生使用指南.docx + 遵守教师课程要求",
+      "catalogueEntry": "华东师范大学、北京师范大学 | 《生成式人工智能学生使用指南》 2024-06-29",
+      "matched": false
+    },
+    {
+      "legacyId": 126,
+      "source": "关于《负责任研究行为规范指引（2023）》的解读.pdf + 四",
+      "catalogueEntry": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "matched": false
+    },
+    {
+      "legacyId": 127,
+      "source": "关于《负责任研究行为规范指引（2023）》的解读.pdf + 四",
+      "catalogueEntry": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "matched": false
+    },
+    {
+      "legacyId": 128,
+      "source": "关于《负责任研究行为规范指引（2023）》的解读.pdf + 四",
+      "catalogueEntry": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "matched": false
+    },
+    {
+      "legacyId": 129,
+      "source": "关于《负责任研究行为规范指引（2023）》的解读.pdf + 四",
+      "catalogueEntry": "科学技术部 | 《负责任研究行为规范指引（2023）》 2023-12-21",
+      "matched": false
+    },
+    {
+      "legacyId": 130,
+      "source": "北京共识——人工智能与教育.pdf + 14",
+      "catalogueEntry": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "matched": false
+    },
+    {
+      "legacyId": 131,
+      "source": "北京共识——人工智能与教育.pdf + 20",
+      "catalogueEntry": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "matched": false
+    },
+    {
+      "legacyId": 132,
+      "source": "北京共识——人工智能与教育.pdf + 23",
+      "catalogueEntry": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "matched": false
+    },
+    {
+      "legacyId": 133,
+      "source": "北京共识——人工智能与教育.pdf + 24",
+      "catalogueEntry": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "matched": false
+    },
+    {
+      "legacyId": 134,
+      "source": "北京共识——人工智能与教育.pdf + 29",
+      "catalogueEntry": "联合国教科文组织（UNESCO）|《北京共识——人工智能与教育》 2019-05-16",
+      "matched": false
+    },
+    {
+      "legacyId": 143,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（一）1",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 144,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（一）2",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 145,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（一）4",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 146,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）5",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 147,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）5",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 148,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）5",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 149,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）6",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 150,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）6",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 151,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（二）6",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 152,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（三）7",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 153,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（三）7",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 154,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（四）8",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 155,
+      "source": "北京教育科学研究院等《北京市教育领域人工智能应用指南（2024年）》.pdf + 四、（四）10",
+      "catalogueEntry": "北京教育科学研究院等 |《北京市教育领域人工智能应用指南（2024年）》 2024-10-28",
+      "matched": false
+    },
+    {
+      "legacyId": 158,
+      "source": "南京大学 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》.pdf + 第六条",
+      "catalogueEntry": "南京大学 | 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》 2025-03-27",
+      "matched": false
+    },
+    {
+      "legacyId": 163,
+      "source": "南京大学 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》.pdf + 第九条",
+      "catalogueEntry": "南京大学 | 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》 2025-03-27",
+      "matched": false
+    },
+    {
+      "legacyId": 170,
+      "source": "南京大学 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》.pdf + 第十四条",
+      "catalogueEntry": "南京大学 | 《关于本科生规范使用生成式人工智能工具的指导意见（试行）》 2025-03-27",
+      "matched": false
+    },
+    {
+      "legacyId": 172,
+      "source": "天津科技大学 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》.docx + 一、4",
+      "catalogueEntry": "天津科技大学 | 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》 2024-04-09",
+      "matched": false
+    },
+    {
+      "legacyId": 173,
+      "source": "天津科技大学 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》.docx + 二、1",
+      "catalogueEntry": "天津科技大学 | 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》 2024-04-09",
+      "matched": false
+    },
+    {
+      "legacyId": 174,
+      "source": "天津科技大学 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》.docx + 三、1",
+      "catalogueEntry": "天津科技大学 | 《关于2024年本科生毕业设计（论文）查重和AIGC检测的通知》 2024-04-09",
+      "matched": false
+    },
+    {
+      "legacyId": 179,
+      "source": "政策.docx + 清华大学人工智能教育应用指导原则 总则",
+      "catalogueEntry": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "matched": false
+    },
+    {
+      "legacyId": 180,
+      "source": "政策.docx + 清华大学人工智能教育应用指导原则 总则",
+      "catalogueEntry": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "matched": false
+    },
+    {
+      "legacyId": 181,
+      "source": "政策.docx + 清华大学人工智能教育应用指导原则 总则",
+      "catalogueEntry": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "matched": false
+    },
+    {
+      "legacyId": 182,
+      "source": "政策.docx + 清华大学人工智能教育应用指导原则 教学篇",
+      "catalogueEntry": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "matched": false
+    },
+    {
+      "legacyId": 183,
+      "source": "政策.docx + 清华大学人工智能教育应用指导原则 学位论文及实践成果篇",
+      "catalogueEntry": "清华大学 | 《清华大学人工智能教育应用指导原则》 2025-11-26",
+      "matched": false
+    },
+    {
+      "legacyId": 217,
+      "source": "科研诚信规范手册.pdf + 1.3",
+      "catalogueEntry": "国家自然科学基金委员会 |《科研诚信规范手册》 2023-12-11",
+      "matched": false
+    }
+  ]
+}
