@@ -56,3 +56,14 @@ test("renders assistant Markdown instead of exposing Markdown as a preformatted 
   assert.match(styles, /\.markdownBody table/);
   assert.match(route, /分段标题用“### 标题”/);
 });
+
+test("explains source-site new badges without the oversized date card", async () => {
+  const [page, styles] = await Promise.all([
+    readFile(new URL("../app/page.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
+  ]);
+  assert.match(page, /源站标注为“新”/);
+  assert.match(page, /不是本站对政策新旧的判断/);
+  assert.doesNotMatch(page, /抓取核验日期：/);
+  assert.doesNotMatch(styles, /\.auditSummary\s*>\s*p/);
+});
