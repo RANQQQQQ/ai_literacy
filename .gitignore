@@ -41,6 +41,8 @@ next-env.d.ts
 /dist/
 /.wrangler/
 /outputs/
-/work/
+/work/*
+!/work/current-policy-audit.json
+!/work/rule-coverage.json
 /.npm-cache/
 /.docx-render/
